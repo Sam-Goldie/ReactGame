@@ -1,9 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import styles from './App.css';
+
+import Board from './Board.jsx';
 
 const App = () => {
   return (
-    <div>HELLO</div>
+    <div className={styles.grid}>
+      <Board />
+    </div>
   );
 };
 
