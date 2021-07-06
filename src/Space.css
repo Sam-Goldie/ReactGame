@@ -1,8 +1,10 @@
 .space{
+  border: 3px solid black;
   color: purple;
 }
 
 .one {
+  border: 3px solid black;
   grid-area: 1 / 1 / 2 / 2;
 }
 

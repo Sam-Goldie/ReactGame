@@ -16,7 +16,7 @@ const numberKey = {
 const Space = (props) => {
   console.log(numberKey[props.spaceid]);
   return (
-    <div className={styles[numberKey[props.spaceid]] + ' ' + styles.space}>Hello</div>
+    <div className={styles[numberKey[props.spaceid]] + ' ' + styles.space}></div>
   );
 }
 
