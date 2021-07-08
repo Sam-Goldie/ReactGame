@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import Space from './Space.jsx';
-import styles from './Board.css';
 
 const createBoard = (n) => {
   console.log('here I am!');

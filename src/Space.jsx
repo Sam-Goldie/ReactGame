@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './Space.css';
 
 const numberKey = {
   1: 'one',
@@ -14,9 +13,8 @@ const numberKey = {
 };
 
 const Space = (props) => {
-  console.log(numberKey[props.spaceid]);
   return (
-    <div className={styles[numberKey[props.spaceid]] + ' ' + styles.space}></div>
+    <div></div>
   );
 }
 
